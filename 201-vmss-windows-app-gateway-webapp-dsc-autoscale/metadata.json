@@ -1,0 +1,9 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "Deploy a Scale Set inside an existing application gateway with DSC and autoscaling.",
+  "description": "This template deploys a Windows 2016 Datacenter VM Scale Set inside an existing application gateway with DSC and autoscaling.",
+  "summary": "This template deploys a VM Scale Set inside an existing application gateway with DSC and autoscaling.",
+  "githubUsername": "dannybritto96",
+  "dateUpdated": "2019-01-08"
+}
