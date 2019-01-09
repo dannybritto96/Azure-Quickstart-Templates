@@ -1,1 +1,1 @@
-# azure-quickstart-templates
+# Azure Resource Manager QuickStart Templates
