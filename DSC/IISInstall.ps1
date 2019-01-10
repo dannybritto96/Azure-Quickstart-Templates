@@ -220,23 +220,6 @@ Node $nodeName
         Arguments = "ADDLOCAL=ALL"
         DependsOn = "[Script]DownloadWebDeploy"
     }
-    Script DownloadPsScript
-    {
-        SetScript = {
-            $source = "https://imsazuredanny.blob.core.windows.net/samp/sample.ps1?sp=r&st=2019-01-09T15:09:16Z&se=2019-01-21T23:09:16Z&spr=https&sv=2018-03-28&sig=d3ptemd6HVwzEl3%2B05ndhhAP%2BGSgUwBThgfkSu63jp0%3D&sr=b"
-            $dest = "C:\sample.ps1"
-            Invoke-WebRequest $source -OutFile $dest
-            powershell.exe C:\sample.ps1
-        }
-        TestScript = {
-            Test-Path "C:\sample.ps1"
-        }
-        GetScript = {
-            Return @{
-                Result = DownloadPsScript
-            }
-        }
-    }
     Service StartWebDeploy
     {                    
         Name = "WMSVC"
