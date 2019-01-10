@@ -49,7 +49,7 @@
             }
         },
         "_artifactsLocation": {
-            "defaultValue": "https://raw.githubusercontent.com/dannybritto96/AzureDSC/master",
+            "defaultValue": "https://raw.githubusercontent.com/dannybritto96/azure-quickstart-templates/master",
             "type": "String",
             "metadata": {
                 "description": "The base URI where artifacts required by this template are located. For example, if stored on a public GitHub repo, you'd use the following URI: https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vmss-windows-webapp-dsc-autoscale."
@@ -63,14 +63,14 @@
             }
         },
         "powershelldscZip": {
-            "defaultValue": "/IISInstall.zip",
+            "defaultValue": "/DSC/IISInstall.zip",
             "type": "String",
             "metadata": {
                 "description": "Location of the PowerShell DSC zip file relative to the URI specified in the _artifactsLocation, i.e. /DSC/IISInstall.ps1.zip"
             }
         },
         "webDeployPackage": {
-            "defaultValue": "/WebApplication1.zip",
+            "defaultValue": "/WebDeploy/WebApplication1.zip",
             "type": "String",
             "metadata": {
                 "description": "Location of the  of the WebDeploy package zip file relative to the URI specified in _artifactsLocation, i.e. /WebDeploy/DefaultASPWebApp.v1.0.zip"
