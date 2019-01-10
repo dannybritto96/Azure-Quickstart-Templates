@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmSku": {
+      "value": "Standard_A1"
+    },
+    "windowsOSVersion": {
+      "value": "2012-R2-Datacenter"
+    },
+    "vmssName": {
+      "value": null
+    },
+    "instanceCount": {
+      "value": null
+    },
+    "adminUsername": {
+      "value": null
+    },
+    "adminPassword": {
+      "value": null
+    },
+    "powershelldscZip": {
+      "value": "/IISInstall.zip"
+    },
+    "webDeployPackage": {
+      "value": "/WebApplication1.zip"
+    },
+    "powershelldscUpdateTagVersion": {
+      "value": "1.0"
+    },
+    "existingVirtualNetworkResourceGroup": {
+      "value": null
+    },
+    "existingVirtualNetworkName": {
+      "value": null
+    },
+    "existingVirtualNetworkSubnet": {
+      "value": null
+    },
+    "existingAppGatewayResourceGroup": {
+      "value": null
+    },
+    "existingAppGatewayName": {
+      "value": null
+    },
+    "existingAppGatewayBackendPoolName": {
+      "value": "appGatewayBackendPool"
+    },
+    "location": {
+      "value": "[resourceGroup().location]"
+    }
+  }
+}
