@@ -49,7 +49,7 @@
             }
         },
         "_artifactsLocation": {
-            "defaultValue": "https://raw.githubusercontent.com/dannybritto96/azure-quickstart-templates/master",
+            "defaultValue": "https://raw.githubusercontent.com/dannybritto96/Azure-Quickstart-Templates/master",
             "type": "String",
             "metadata": {
                 "description": "The base URI where artifacts required by this template are located. For example, if stored on a public GitHub repo, you'd use the following URI: https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vmss-windows-webapp-dsc-autoscale."
